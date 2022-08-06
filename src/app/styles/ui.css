@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 12;
+}
+
+.find-replace-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 10px;
+}
+
+.find-replace-widget {
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.find-replace-input {
+  padding: 5px;
+  width: 130px;
+  border-radius: 3px;
+  border: 1px solid rgb(155, 154, 170);
+}
+
+.find-replace-input:placeholder {
+  color: rgb(155, 154, 170);
+  font-size: 12px;
+}
+
+.find-replace-input:focus {
+  outline: none !important;
+  border: 2px solid rgb(83, 68, 201);
+}
+
+.find-replace-icon {
+  position: relative;
+  color: rgb(155, 154, 170);
+  width: 18px;
+  height: 20px;
+}
+
+.find-replace-icon svg {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 16px;
+  height: auto;
+  fill: inherit;
+}
+
+/* Specifications */
+.specification {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.specification-header {
+  color: rgb(155, 154, 170);
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.specification-container {
+  display: flex;
+}
+
+.specification-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid rgb(83, 68, 201);
+  background-color: white;
+  color: rgb(83, 68, 201);
+  fill: rgb(83, 68, 201);
+  padding: 5px 10px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+
+.specification-button.element-active {
+  background-color: rgb(83, 68, 201);
+  color: white;
+  fill: white;
+}
+
+/* Applied elements */
+.element-list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.element-header {
+  color: rgb(155, 154, 170);
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.element-list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.element-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid rgb(83, 68, 201);
+  background-color: white;
+  color: rgb(83, 68, 201);
+  fill: rgb(83, 68, 201);
+  padding: 5px 10px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+
+.element-button.element-active {
+  background-color: rgb(83, 68, 201);
+  color: white;
+  fill: white;
+}
+
+.element-checkbox {
+  display: none;
+}
+
+.element-label {
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+  color: inherit;
+  font-size: 12px;
+  line-height: 22px;
+  margin-left: 5px;
+  font-weight: 500;
+}
+
+.element-icon {
+  position: relative;
+  vertical-align: top;
+  color: inherit;
+  display: inline-block;
+  width: 18px;
+  height: 20px;
+}
+
+.element-icon svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 16px;
+  height: auto;
+  fill: inherit;
+}
+
+/* Apply Button */
+.apply-button {
+  display: flex;
+  width: 100%;
+  border-radius: 12px;
+  font-size: 12px;
+  line-height: 22px;
+  margin-left: 5px;
+  font-weight: 500;
+  padding: 5px 0;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(254, 197, 190);
+  color: rgb(83, 48, 43);
+  border: none;
+}
+
+.apply-button:hover {
+  cursor: pointer;
+}
